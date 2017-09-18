@@ -38,7 +38,7 @@ namespace S3 {
 			}
 		}
 
-		void ToggleInventoryUI(){
+		public void ToggleInventoryUI(){
 			if(inventoryUI != null){
 				inventoryUI.SetActive (!inventoryUI.activeSelf);
 				gameManagerMaster.isInventoryUIOn = !gameManagerMaster.isInventoryUIOn;
